@@ -1,0 +1,18 @@
+# .gitignore
+
+# Ignore .NET build outputs
+backend/MovieCompareApi/bin/
+backend/MovieCompareApi/obj/
+
+# Ignore Node modules
+frontend/movie-price-app/node_modules/
+
+# Ignore env and secrets
+*.env
+*.user
+.DS_Store
+
+# Ignore logs
+*.log
+
+.vs/
