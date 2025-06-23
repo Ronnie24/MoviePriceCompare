@@ -7,6 +7,7 @@ function MovieList() {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState("");
 
+  // Async function to fetch movie price comparison data from backend API
   const fetchData = async () => {
     setLoading(true);
     setLoaded(false);
@@ -20,7 +21,7 @@ function MovieList() {
     );
 
     const fetchRequest = fetch(
-      "https://localhost:7236/api/Movie/compare-prices"
+      "https://localhost:7236/api/Movie/compare-prices" //Replace the fetch URL with your actual backend URL if needed
     )
       .then((res) => {
         if (!res.ok) {

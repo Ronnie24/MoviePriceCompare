@@ -10,9 +10,13 @@ namespace MovieCompareApi.Models
         public string Type { get; set; }
         public string Year { get; set; }
         public string Poster { get; set; }
-        [JsonPropertyName("Price")]
-        public string PriceRaw { get; set; }  
 
+        // Maps the JSON field "Price" to this string property
+        [JsonPropertyName("Price")]
+        public string PriceRaw { get; set; }
+
+        // Computed property: safely converts PriceRaw to a decimal (nullable)
+        // This property is ignored when serializing to JSON
         [JsonIgnore]
         public decimal? Price
         {

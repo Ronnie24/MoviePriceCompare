@@ -8,20 +8,23 @@ namespace MovieCompareApi.Services
         private readonly MovieApiClient _apiClient;
         private readonly ILogger<MovieService> _logger;
 
+        // Constructor injection of the API client and logger
         public MovieService(MovieApiClient apiClient, ILogger<MovieService> logger)
         {
             _apiClient = apiClient;
             _logger = logger;
         }
 
+        // Main method that returns the list of movies with the lowest prices between providers
         public async Task<List<MoviePriceComparison>> GetLowestPriceMoviesAsync()
         {
             var result = new List<MoviePriceComparison>();
 
+            // Get movie summaries from both providers
             var cineMovies = await _apiClient.GetMoviesAsync("cinemaworld");
             var filmMovies = await _apiClient.GetMoviesAsync("filmworld");
 
-            // 合并两个来源的电影，去重（以 Title 为主）
+            //Collect all unique movie titles from both providers
             var allTitles = new HashSet<string>();
             if (cineMovies != null)
                 allTitles.UnionWith(cineMovies.Select(m => m.Title));
@@ -32,7 +35,7 @@ namespace MovieCompareApi.Services
             {
                 try
                 {
-                    // 从两个提供商中查找该电影的 ID
+                    // Find the ID of the movie from the two providers
                     var cineId = cineMovies?.FirstOrDefault(m => m.Title == title)?.Id;
                     var filmId = filmMovies?.FirstOrDefault(m => m.Title == title)?.Id;
 
@@ -45,7 +48,7 @@ namespace MovieCompareApi.Services
                     if (!string.IsNullOrEmpty(filmId))
                         filmDetail = await _apiClient.GetMovieDetailAsync("filmworld", filmId);
 
-                    // 比较价格
+                    // Compare prices
                     var prices = new List<(string Provider, decimal Price)>();
 
                     if (cineDetail?.Price != null)
@@ -53,6 +56,7 @@ namespace MovieCompareApi.Services
                     if (filmDetail?.Price != null)
                         prices.Add(("Filmworld", filmDetail.Price.Value));
 
+                    // If any price is available, choose the lowest and add to result
                     if (prices.Any())
                     {
                         var lowest = prices.OrderBy(p => p.Price).First();
@@ -67,6 +71,7 @@ namespace MovieCompareApi.Services
                 }
                 catch (Exception ex)
                 {
+                    // Log the error for this specific movie, continue with others
                     _logger.LogError($"Error processing movie '{title}': {ex.Message}");
                 }
             }

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|solutionrelative:moviecompareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|c:\\users\\ronni\\desktop\\moviecompareapp\\backend\\moviecompareapi\\moviecompareapi\\moviecompareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|solutionrelative:moviecompareapi\\moviecompareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|c:\\users\\ronni\\desktop\\moviecompareapp\\backend\\moviecompareapi\\moviecompareapi\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|solutionrelative:moviecompareapi\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|solutionrelative:moviecompareapi\\clients\\movieapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|c:\\users\\ronni\\desktop\\moviecompareapp\\backend\\moviecompareapi\\moviecompareapi\\moviecompareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|solutionrelative:moviecompareapi\\moviecompareapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|c:\\users\\ronni\\desktop\\moviecompareapp\\backend\\moviecompareapi\\moviecompareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78584D39-6974-45CD-A738-234E1E4A8374}|MovieCompareApi\\MovieCompareApi.csproj|solutionrelative:moviecompareapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,8 +57,12 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "MovieCompareApi\\Services\\MovieService.cs",
@@ -71,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MovieApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Clients\\MovieApiClient.cs",
               "RelativeDocumentMoniker": "MovieCompareApi\\Clients\\MovieApiClient.cs",
@@ -84,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MoviePriceComparison.cs",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Models\\MoviePriceComparison.cs",
               "RelativeDocumentMoniker": "MovieCompareApi\\Models\\MoviePriceComparison.cs",
@@ -97,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MovieDetail.cs",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Models\\MovieDetail.cs",
               "RelativeDocumentMoniker": "MovieCompareApi\\Models\\MovieDetail.cs",
@@ -110,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MovieSummary.cs",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Models\\MovieSummary.cs",
               "RelativeDocumentMoniker": "MovieCompareApi\\Models\\MovieSummary.cs",
@@ -123,12 +127,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MovieCompareApi.csproj",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\MovieCompareApi.csproj",
               "RelativeDocumentMoniker": "MovieCompareApi\\MovieCompareApi.csproj",
-              "ToolTip": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\MovieCompareApi.csproj*",
-              "RelativeToolTip": "MovieCompareApi\\MovieCompareApi.csproj*",
+              "ToolTip": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\MovieCompareApi.csproj",
+              "RelativeToolTip": "MovieCompareApi\\MovieCompareApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-20T06:52:31.238Z",
@@ -142,14 +146,18 @@
               "RelativeDocumentMoniker": "MovieCompareApi\\Program.cs",
               "ToolTip": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Program.cs",
               "RelativeToolTip": "MovieCompareApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T06:58:06.003Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\Ronni\\Desktop\\MovieCompareApp\\backend\\MovieCompareApi\\MovieCompareApi\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MovieCompareApi\\Controllers\\MovieController.cs",
@@ -159,14 +167,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T07:00:44.914Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
